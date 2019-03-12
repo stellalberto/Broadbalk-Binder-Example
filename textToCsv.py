@@ -21,3 +21,4 @@ config = configparser.ConfigParser()
 config.read('config.ini')
 outfile = open(config['EXPERIMENT']['outfile'], "w", newline='')
 srcdocs = config['EXPERIMENT']['srcdocs']
+convertToCsv()
