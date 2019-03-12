@@ -1,4 +1,6 @@
-name:python
+name: example-enviromnment
+channels:
+  - conda-forge
 dependencies:
   -python=2.7
   -configparser
